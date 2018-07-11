@@ -1,0 +1,29 @@
+vi:
+  static_pages:
+    i18n:
+      hello: "Hê lô chào ngày mớiiii"
+      profile: "Tiểu sử"
+      phone: "Điện thoại"
+      address: "Địa Chỉ"
+      full_name: "Họ tên"
+
+    home:
+      title: "ứng dụng mẫu"
+      t1: "Trang này"
+      t2: "là trang chủ hướng dẫn các bài mẫu."
+
+    about:
+      t0: "Giới thiệu"
+      t1: ""
+      t2: "là một"
+      t3: "quyển sách"
+      t4: "và"
+      t5: "chương trình phát sóng"
+      t6: "để dạy lập trình bằng"
+      t7: "Đây là ứng dụng mẫu cho bài hướng dẫn."
+
+    help:
+      t0: "Trang trợ giúp"
+      t1: "Tìm sự trợ giúp cho các bài hướng dẫn Ruby qua"
+      t2: "từng phần"
+      t3: "Để tìm trợ giúp cho bài mẫu này, hãy xem"
