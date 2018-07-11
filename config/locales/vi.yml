@@ -1,5 +1,11 @@
 vi:
   title_full: "Bài mẫu Ruby on Rails Tutorial"
+  la1: "Tiếng Anh"
+  la2: "Tiếng Việt"
+  Home_title: "Trang chủ"
+  About_title: "Trang trợ giúp"
+  Help_title: "Trang trợ giúp"
+  Contact_title: "Trang liên hệ"
   static_pages:
 
     home:
@@ -8,8 +14,6 @@ vi:
       t1: "Trang này"
       t2: "là trang chủ hướng dẫn các bài mẫu."
       t3: "Hướng dẫn Ruby on Rails"
-      la1: "Tiếng Anh"
-      la2: "Tiếng Việt"
 
     about:
       About_title: "Trang giới thiệu"
@@ -23,8 +27,6 @@ vi:
       t7: "Đây là ứng dụng mẫu cho bài hướng dẫn."
       t8: "Hướng dẫn Ruby on Rails"
       t9: "Ruby trên nền tảng Rails"
-      la1: "Tiếng Anh"
-      la2: "Tiếng Việt"
 
     help:
       Help_title: "Trang trợ giúp"
@@ -33,13 +35,9 @@ vi:
       t2: "từng phần"
       t3: "Để tìm trợ giúp cho bài mẫu này, hãy xem"
       t4: "Hướng dẫn Ruby on Rails"
-      la1: "Tiếng Anh"
-      la2: "Tiếng Việt"
 
     contact:
-      Contact_title: "Liên hệ"
+      Contact_title: "Trang liên hệ"
       t0: "Liên hệ"
       t1: "Liên hệ đến sách hướng dẫn Ruby trên nền tảng Rails thông qua"
-      t2: "trang liên hệ"
-      la1: "Tiếng Anh"
-      la2: "Tiếng Việt"
+      t2: "Trang liên hệ"

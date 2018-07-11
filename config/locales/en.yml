@@ -31,6 +31,12 @@
 
 en:
   title_full: "Ruby on Rails Tutorial Sample App"
+  la1: "English"
+  la2: "Vietnamese"
+  Home_title: "Home"
+  About_title: "About"
+  Help_title: "Help"
+  Contact_title: "Contact"
   static_pages:
 
     home:
@@ -39,8 +45,6 @@ en:
       t1: "This is the home page for the"
       t2: "sample application."
       t3: "Ruby on Rails Tutorial"
-      la1: "English"
-      la2: "Vietnamese"
 
     about:
       About_title: "About"
@@ -54,8 +58,6 @@ en:
       t7: "This is the sample application for the tutorial."
       t8: "Ruby on Rails Tutorial"
       t9: "Ruby on Rails"
-      la1: "English"
-      la2: "Vietnamese"
 
     help:
       Help_title: "Help"
@@ -64,13 +66,9 @@ en:
       t2: "section"
       t3: "To get help on this sample app, see the"
       t4: "Ruby on Rails Tutorial"
-      la1: "English"
-      la2: "Vietnamese"
 
     contact:
       Contact_title: "Contact"
       t0: "Contact"
       t1: "Contact the Ruby on Rails Tutorial about the sample app at the"
       t2: "contact page"
-      la1: "English"
-      la2: "Vietnamese"
