@@ -1,22 +1,27 @@
 vi:
   title_full: "Bài mẫu Ruby on Rails Tutorial"
-  la1: "Tiếng Anh"
-  la2: "Tiếng Việt"
-  Home_title: "Trang chủ"
-  About_title: "Trang trợ giúp"
-  Help_title: "Trang trợ giúp"
-  Contact_title: "Trang liên hệ"
-  static_pages:
+  lang_en: "Tiếng Anh"
+  lang_vi: "Tiếng Việt"
+  home_title: "Trang chủ"
+  about_title: "Trang giới thiệu"
+  help_title: "Trang trợ giúp"
+  contact_title: "Trang liên hệ"
+  news_title: "Tin tức"
+  header_t1: "Ứng dụng mẫu"
+  header_t2: "Đăng nhập"
+  footer_t1: "Sách"
+  footer_t2: "Hướng dẫn Ruby trên nền tảng Rails"
+  footer_t3: "Viết bởi"
+  footer_t4: "Michael Hartl"
 
+  static_pages:
     home:
-      Home_title: "Trang chủ"
       title: "Khởi đầu với ứng dụng mẫu"
       t1: "Trang này"
       t2: "là trang chủ hướng dẫn các bài mẫu."
       t3: "Hướng dẫn Ruby on Rails"
-
+      signup_btn: "Đăng kí ngay!"
     about:
-      About_title: "Trang giới thiệu"
       t0: "Giới thiệu"
       t1: ""
       t2: "là một"
@@ -27,17 +32,16 @@ vi:
       t7: "Đây là ứng dụng mẫu cho bài hướng dẫn."
       t8: "Hướng dẫn Ruby on Rails"
       t9: "Ruby trên nền tảng Rails"
-
     help:
-      Help_title: "Trang trợ giúp"
       t0: "Trang trợ giúp"
       t1: "Tìm sự trợ giúp cho các bài hướng dẫn Ruby qua"
       t2: "từng phần"
       t3: "Để tìm trợ giúp cho bài mẫu này, hãy xem"
       t4: "Hướng dẫn Ruby on Rails"
-
     contact:
-      Contact_title: "Trang liên hệ"
       t0: "Liên hệ"
       t1: "Liên hệ đến sách hướng dẫn Ruby trên nền tảng Rails thông qua"
       t2: "Trang liên hệ"
+    signup:
+      new_signup: "Đăng kí"
+      t1: "Trang đăng kí cho người dùng mới."

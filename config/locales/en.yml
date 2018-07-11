@@ -1,53 +1,27 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
   title_full: "Ruby on Rails Tutorial Sample App"
-  la1: "English"
-  la2: "Vietnamese"
-  Home_title: "Home"
-  About_title: "About"
-  Help_title: "Help"
-  Contact_title: "Contact"
-  static_pages:
+  lang_en: "English"
+  lang_vi: "Vietnamese"
+  home_title: "Home"
+  about_title: "About"
+  help_title: "Help"
+  contact_title: "Contact"
+  news_title: "News"
+  header_t1: "Sample App"
+  header_t2: "Log In"
+  footer_t1: "The"
+  footer_t2: "Ruby on Rails Tutorial"
+  footer_t3: "by"
+  footer_t4: "Michael Hartl"
 
+  static_pages:
     home:
-      Home_title: "Home"
       title: "Welcome to the Sample App"
       t1: "This is the home page for the"
       t2: "sample application."
       t3: "Ruby on Rails Tutorial"
-
+      signup_btn: "Sign up now!"
     about:
-      About_title: "About"
       t0: "About"
       t1: "The"
       t2: "Is a"
@@ -58,17 +32,17 @@ en:
       t7: "This is the sample application for the tutorial."
       t8: "Ruby on Rails Tutorial"
       t9: "Ruby on Rails"
-
     help:
-      Help_title: "Help"
       t0: "Help"
       t1: "Get help on the Ruby on Rails Tutorial at the"
       t2: "section"
       t3: "To get help on this sample app, see the"
       t4: "Ruby on Rails Tutorial"
-
     contact:
-      Contact_title: "Contact"
+      contact_title: "Contact"
       t0: "Contact"
       t1: "Contact the Ruby on Rails Tutorial about the sample app at the"
       t2: "contact page"
+    signup:
+      new_signup: "Sign Up"
+      t1: "This will be a signup page for new users."
