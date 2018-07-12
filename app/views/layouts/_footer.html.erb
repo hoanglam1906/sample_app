@@ -1,0 +1,16 @@
+<footer class="footer">
+  <small>
+    <%= t("t_f1") %> <a href="http://www.railstutorial.org/"> <%= t("t_f2") %> </a>
+    <%= t("t_f3") %> <a href="http://www.michaelhartl.com/"> <%= t("t_f4") %> </a>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("la1"), locale:"en" %></li>
+      <li><%= link_to t("la2"), locale:"vi" %></li>
+      <li><%= link_to t("About_title"), about_path %></li>
+      <li><%= link_to t("Help_title"), help_path %></li>
+      <li><%= link_to t("Contact_title"), contact_path %></li>
+      <li><a href="http://news.railstutorial.org/"><%= t("News_title") %></a></li>
+    </ul>
+  </nav>
+</footer>
