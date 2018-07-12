@@ -1,17 +1,12 @@
-<% provide :title, "Home" %>
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= yield :title %> | Ruby on Rails Tutorial Sample App</title>
-  </head>
-  <body>
-    <h1><%= t ".title" %></h1>
-    <p>
-      <%= t ".t1" %>
-      <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-      <%= t ".t2" %>
-    </p>
-    <%= link_to "English", locale:"en" %>
-    <%= link_to "Vietnamese", locale:"vi" %>
-  </body>
-</html>
+<% provide :title, t(".Home_title") %>
+<h1><%= t ".title" %></h1>
+  <p>
+    <%= t ".t1" %>
+    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    <%= t ".t2" %>
+  </p>
+<%= link_to "English", locale:"en" %>
+<%= link_to "Vietnamese", locale:"vi" %><br>
+<%= link_to "i18n test", "i18n" %> ||
+<%= link_to "About", "static_pages/about" %> ||
+<%= link_to "Help", "static_pages/help" %>

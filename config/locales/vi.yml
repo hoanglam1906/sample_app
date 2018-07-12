@@ -1,4 +1,5 @@
 vi:
+  title_full: "Bài mẫu Ruby on Rails Tutorial"
   static_pages:
     i18n:
       hello: "Hê lô chào ngày mớiiii"
@@ -8,11 +9,13 @@ vi:
       full_name: "Họ tên"
 
     home:
+      Home_title: "Trang chủ"
       title: "ứng dụng mẫu"
       t1: "Trang này"
       t2: "là trang chủ hướng dẫn các bài mẫu."
 
     about:
+      About_title: "Trang giới thiệu"
       t0: "Giới thiệu"
       t1: ""
       t2: "là một"
@@ -23,6 +26,7 @@ vi:
       t7: "Đây là ứng dụng mẫu cho bài hướng dẫn."
 
     help:
+      Help_title: "Trang trợ giúp"
       t0: "Trang trợ giúp"
       t1: "Tìm sự trợ giúp cho các bài hướng dẫn Ruby qua"
       t2: "từng phần"
