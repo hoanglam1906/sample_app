@@ -1,0 +1,45 @@
+vi:
+  title_full: "Bài mẫu Ruby on Rails Tutorial"
+  static_pages:
+
+    home:
+      Home_title: "Trang chủ"
+      title: "Khởi đầu với ứng dụng mẫu"
+      t1: "Trang này"
+      t2: "là trang chủ hướng dẫn các bài mẫu."
+      t3: "Hướng dẫn Ruby on Rails"
+      la1: "Tiếng Anh"
+      la2: "Tiếng Việt"
+
+    about:
+      About_title: "Trang giới thiệu"
+      t0: "Giới thiệu"
+      t1: ""
+      t2: "là một"
+      t3: "quyển sách"
+      t4: "và"
+      t5: "chương trình phát sóng"
+      t6: "để dạy lập trình bằng"
+      t7: "Đây là ứng dụng mẫu cho bài hướng dẫn."
+      t8: "Hướng dẫn Ruby on Rails"
+      t9: "Ruby trên nền tảng Rails"
+      la1: "Tiếng Anh"
+      la2: "Tiếng Việt"
+
+    help:
+      Help_title: "Trang trợ giúp"
+      t0: "Trang trợ giúp"
+      t1: "Tìm sự trợ giúp cho các bài hướng dẫn Ruby qua"
+      t2: "từng phần"
+      t3: "Để tìm trợ giúp cho bài mẫu này, hãy xem"
+      t4: "Hướng dẫn Ruby on Rails"
+      la1: "Tiếng Anh"
+      la2: "Tiếng Việt"
+
+    contact:
+      Contact_title: "Liên hệ"
+      t0: "Liên hệ"
+      t1: "Liên hệ đến sách hướng dẫn Ruby trên nền tảng Rails thông qua"
+      t2: "trang liên hệ"
+      la1: "Tiếng Anh"
+      la2: "Tiếng Việt"
