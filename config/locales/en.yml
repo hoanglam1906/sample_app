@@ -13,6 +13,9 @@ en:
   footer_t2: "Ruby on Rails Tutorial"
   footer_t3: "by"
   footer_t4: "Michael Hartl"
+  error_txt1: "The form contains"
+  error_txt2: "error"
+  not_found: "User does not exist!"
 
   static_pages:
     home:
@@ -43,6 +46,14 @@ en:
       t0: "Contact"
       t1: "Contact the Ruby on Rails Tutorial about the sample app at the"
       t2: "contact page"
-    signup:
+
+  users:
+    create:
+      create_mesage: "Welcome to the Sample App!"
+    new:
       new_signup: "Sign Up"
-      t1: "This will be a signup page for new users."
+      signup_name: "Name"
+      signup_email: "Email"
+      signup_password: "Password"
+      signup_confirm: "Password confirmation"
+      signup_submit: "Create my account"
