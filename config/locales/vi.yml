@@ -13,6 +13,8 @@ vi:
   footer_t2: "Hướng dẫn Ruby trên nền tảng Rails"
   footer_t3: "Viết bởi"
   footer_t4: "Michael Hartl"
+  error_txt1: "Mẫu đăng kí chứa"
+  error_txt2: "lỗi"
 
   static_pages:
     home:
@@ -42,6 +44,28 @@ vi:
       t0: "Liên hệ"
       t1: "Liên hệ đến sách hướng dẫn Ruby trên nền tảng Rails thông qua"
       t2: "Trang liên hệ"
-    signup:
+
+  users:
+    create:
+      create_mesage: "Chào mừng đến với ứng dụng mẫu!"
+    new:
       new_signup: "Đăng kí"
-      t1: "Trang đăng kí cho người dùng mới."
+      signup_name: "Tên"
+      signup_email: "Email"
+      signup_password: "Mật khẩu"
+      signup_confirm: "Nhập lại mật khẩu"
+      signup_submit: "Tạo tài khoản!"
+
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: " không được để trống"
+            email:
+              blank: " không được để trống"
+              invalid: " không hợp lệ"
+            password:
+              blank: " không được để trống"
+              too_short: " quá ngắn"
