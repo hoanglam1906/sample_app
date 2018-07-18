@@ -7,15 +7,37 @@ vi:
   help_title: "Trang trợ giúp"
   contact_title: "Trang liên hệ"
   news_title: "Tin tức"
-  header_t1: "Ứng dụng mẫu"
-  header_t2: "Đăng nhập"
-  footer_t1: "Sách"
-  footer_t2: "Hướng dẫn Ruby trên nền tảng Rails"
-  footer_t3: "Viết bởi"
-  footer_t4: "Michael Hartl"
-  error_txt1: "Mẫu đăng kí chứa"
-  error_txt2: "lỗi"
   not_found: "Người dùng không tồn tại!"
+  login: "Đăng nhập"
+  logout: "Đăng xuất"
+  signup: "Đăng kí"
+
+  layouts:
+    footer:
+      footer_t1: "Sách"
+      footer_t2: "Hướng dẫn Ruby trên nền tảng Rails"
+      footer_t3: "Viết bởi"
+      footer_t4: "Michael Hartl"
+    header:
+      header_t1: "Ứng dụng mẫu"
+      logged_txt1: "Người dùng"
+      logged_txt2: "Tài khoản"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+
+  sessions:
+    create:
+      session_mesage: "Sai tên hoặc mật khẩu!"
+    new:
+      login_email: "Email"
+      login_password: "Mật khẩu"
+      signup_btn: "Đăng kí ngay!"
+      t1: "Người dùng mới?"
+
+  shared:
+    error_messages:
+      error_txt1: "Mẫu đăng kí chứa"
+      error_txt2: "lỗi"
 
   static_pages:
     home:
@@ -50,7 +72,6 @@ vi:
     create:
       create_mesage: "Chào mừng đến với ứng dụng mẫu!"
     new:
-      new_signup: "Đăng kí"
       signup_name: "Tên"
       signup_email: "Email"
       signup_password: "Mật khẩu"
