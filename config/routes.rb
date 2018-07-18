@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get "sessions/new"
   scope "(:locale)", locale: /en|vi/ do
     root to: "static_pages#home"
     get "/help", to: "static_pages#help"
