@@ -25,14 +25,14 @@ vi:
       settings: "Cài đặt"
 
   sessions:
-    create:
-      session_mesage: "Sai tên hoặc mật khẩu!"
     new:
       login_email: "Email"
       login_password: "Mật khẩu"
       signup_btn: "Đăng kí ngay!"
       t1: "Người dùng mới?"
       remember: "Ghi nhớ tôi trên máy tính này"
+    create:
+      session_mesage: "Sai tên hoặc mật khẩu!"
 
   shared:
     error_messages:
@@ -69,14 +69,33 @@ vi:
       t2: "Trang liên hệ"
 
   users:
-    create:
-      create_mesage: "Chào mừng đến với ứng dụng mẫu!"
+    index:
+      index_title: ""
+      t1: ""
     new:
       signup_name: "Tên"
       signup_email: "Email"
       signup_password: "Mật khẩu"
       signup_confirm: "Nhập lại mật khẩu"
       signup_submit: "Tạo tài khoản!"
+    create:
+      create_mesage: "Chào mừng đến với ứng dụng mẫu!"
+    edit:
+      edit_title: "Chỉnh sửa người dùng"
+      edit_txt1: "Cập nhật hồ sơ"
+      edit_txt2: "thay đổi"
+      edit_submit: "Lưu thay đổi"
+    update:
+      success: "Cập nhật hồ sơ thành công"
+    destroy:
+      success: "Đã xóa người dùng"
+    logged_in_user:
+      log_msg: "Bạn phải đăng nhập đã!"
+    form:
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirm: "Nhập lại mật khẩu"
 
   activerecord:
     errors:
@@ -91,3 +110,6 @@ vi:
             password:
               blank: " không được để trống"
               too_short: " quá ngắn"
+            password_confirmation:
+              confirmation: " không khớp với Password"
+

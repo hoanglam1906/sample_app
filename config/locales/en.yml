@@ -70,11 +70,29 @@ en:
       t2: "contact page"
 
   users:
-    create:
-      create_mesage: "Welcome to the Sample App!"
+    index:
+      index_title: "All users"
     new:
       signup_name: "Name"
       signup_email: "Email"
       signup_password: "Password"
       signup_confirm: "Password confirmation"
       signup_submit: "Create my account"
+    create:
+      create_mesage: "Welcome to the Sample App!"
+    edit:
+      edit_title: "Edit user"
+      edit_txt1: "Update your profile"
+      edit_txt2: "change"
+      edit_submit: "Save changes"
+    update:
+      success: "Profile updated"
+    destroy:
+      success: "User deleted"
+    logged_in_user:
+      log_msg: "Please log in."
+    form:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirm: "Password confirmation"

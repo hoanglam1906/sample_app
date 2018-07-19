@@ -7,7 +7,6 @@ class SessionsController < ApplicationController
       log_in @user
       remember_me
       remember @user
-      redirect_to @user
     else
       flash.now[:danger] = t ".session_mesage"
       render :new
@@ -21,5 +20,6 @@ class SessionsController < ApplicationController
 
   def remember_me
     params[:session][:remember_me] == "1" ? remember(@user) : forget(@user)
+    redirect_back_or @user
   end
 end
