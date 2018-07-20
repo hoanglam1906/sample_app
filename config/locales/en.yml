@@ -7,15 +7,37 @@ en:
   help_title: "Help"
   contact_title: "Contact"
   news_title: "News"
-  header_t1: "Sample App"
-  header_t2: "Log In"
-  footer_t1: "The"
-  footer_t2: "Ruby on Rails Tutorial"
-  footer_t3: "by"
-  footer_t4: "Michael Hartl"
-  error_txt1: "The form contains"
-  error_txt2: "error"
   not_found: "User does not exist!"
+  login: "Log In"
+  logout: "Log out"
+  signup: "Sign Up"
+
+  layouts:
+    footer:
+      footer_t1: "The"
+      footer_t2: "Ruby on Rails Tutorial"
+      footer_t3: "by"
+      footer_t4: "Michael Hartl"
+    header:
+      header_t1: "Sample App"
+      logged_txt1: "Users"
+      logged_txt2: "Account"
+      profile: "Profile"
+      settings: "Settings"
+
+  sessions:
+    create:
+      session_mesage: "Invalid email/password combination"
+    new:
+      login_email: "Email"
+      login_password: "Password"
+      signup_btn: "Sign up now!"
+      t1: "New user?"
+
+  shared:
+    error_messages:
+      error_txt1: "The form contains"
+      error_txt2: "error"
 
   static_pages:
     home:
@@ -51,7 +73,6 @@ en:
     create:
       create_mesage: "Welcome to the Sample App!"
     new:
-      new_signup: "Sign Up"
       signup_name: "Name"
       signup_email: "Email"
       signup_password: "Password"
