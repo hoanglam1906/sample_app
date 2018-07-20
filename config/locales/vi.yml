@@ -33,6 +33,13 @@ vi:
       remember: "Ghi nhớ tôi trên máy tính này"
     create:
       session_mesage: "Sai tên hoặc mật khẩu!"
+      email_msg1: "Tài khoản chưa được kích hoạt!"
+      email_msg2: " Kiểm tra email để lấy link kích hoạt tài khoản!"
+
+  account_activations:
+    edit:
+      activate_success: "Tài khoản được kích hoạt!"
+      invalid_link: "Link kích hoạt không hợp lệ!"
 
   shared:
     error_messages:
@@ -80,6 +87,7 @@ vi:
       signup_submit: "Tạo tài khoản!"
     create:
       create_mesage: "Chào mừng đến với ứng dụng mẫu!"
+      mail_check: "Hãy kiểm tra email của bạn để kích hoạt tài khoản."
     edit:
       edit_title: "Chỉnh sửa người dùng"
       edit_txt1: "Cập nhật hồ sơ"
@@ -107,6 +115,7 @@ vi:
             email:
               blank: " không được để trống"
               invalid: " không hợp lệ"
+              taken: " đã tồn tại"
             password:
               blank: " không được để trống"
               too_short: " quá ngắn"
