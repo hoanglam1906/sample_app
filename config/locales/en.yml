@@ -27,12 +27,19 @@ en:
   sessions:
     create:
       session_mesage: "Invalid email/password combination"
+      email_msg1: "Account not activated. "
+      email_msg2: "Check your email for the activation link."
     new:
       login_email: "Email"
       login_password: "Password"
       signup_btn: "Sign up now!"
       t1: "New user?"
       remember: "Remember me on this computer"
+
+  account_activations:
+    edit:
+      activate_success: "Account activated!"
+      invalid_link: "Invalid activation link"
 
   shared:
     error_messages:
@@ -80,6 +87,7 @@ en:
       signup_submit: "Create my account"
     create:
       create_mesage: "Welcome to the Sample App!"
+      mail_check: "Please check your email to activate your account."
     edit:
       edit_title: "Edit user"
       edit_txt1: "Update your profile"
