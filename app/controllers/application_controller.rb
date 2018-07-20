@@ -10,8 +10,4 @@ class ApplicationController < ActionController::Base
   def default_url_options
     {locale: I18n.locale}
   end
-
-  def hello
-    render html: "hello, world!"
-  end
 end
