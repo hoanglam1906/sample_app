@@ -33,6 +33,7 @@ en:
       login_password: "Password"
       signup_btn: "Sign up now!"
       t1: "New user?"
+      remember: "Remember me on this computer"
 
   shared:
     error_messages:

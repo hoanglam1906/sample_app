@@ -33,6 +33,7 @@ vi:
       login_password: "Mật khẩu"
       signup_btn: "Đăng kí ngay!"
       t1: "Người dùng mới?"
+      remember: "Ghi nhớ tôi trên máy tính này"
 
   shared:
     error_messages:
